@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
+/* @import url("https://fonts.googleapis.com/css2?family=Questrail&display=swap"); */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root{
+  --primary-color:#6f55f2;
+  --heading-color:#132742;
+  --bg-gradient:linear-gradient(90deg,
+  rgba(103,101,240,1)27%),
+  rgba(141,141,235,1)85%
+  
+};
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body{
+    font-family: var(--font-name);
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+  section{
+    padding: 50px 0px;
   }
+  a{
+    text-decoration: none;
+    color: unset;
+  }
+
+  a:hover{
+    color: unset;
+  }
+  link{
+    text-decoration: none;
+    color: unset;
+  }
+
+  link:hover{
+    color: unset;
+  }
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.sectin_title{
+  color:var(--heading-color);
+  font-weight: 700;
 }
