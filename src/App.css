@@ -1,5 +1,9 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Questrail&display=swap"); */
-
+.App{
+  /* display: flex;
+  flex-direction: column;
+  min-height: 100vh; */
+}
 :root{
   --primary-color:#6f55f2;
   --heading-color:#132742;
